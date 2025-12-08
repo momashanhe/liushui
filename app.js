@@ -53,6 +53,11 @@ app.use('/api/token', apiTokenRouter);
 app.use('/bill', billRouter);
 app.use('/auth', authRouter);
 
+// 配置默认页面
+app.get('/', function(req, res) {
+  res.redirect('/bill/list');
+});
+
 // 配置404页面
 app.use(function(req, res, next) {
   res.render('404');
