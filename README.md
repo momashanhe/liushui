@@ -22,7 +22,6 @@
 
 ```code
 liushui/
-├── app.js                 # 应用入口文件
 ├── bin/
 │   └── www                # 服务器启动脚本
 ├── config/
@@ -48,7 +47,11 @@ liushui/
 │       ├── auth.js        # 认证相关页面
 │       └── bill.js        # 账单相关页面
 ├── views/                 # 视图模板文件
-└── package.json           # 项目依赖配置
+├── .gitignore             # Git忽略文件
+├── app.js                 # 应用入口文件
+├── LICENSE                # 许可证文件
+├── package.json           # 项目依赖配置
+└── README.md              # 项目说明文档
 ```
 
 ## 功能模块
