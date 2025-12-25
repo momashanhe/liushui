@@ -143,7 +143,7 @@ liushui/
 module.exports = {
   DB_HOST: '127.0.0.1',  // MongoDB服务器地址
   DB_PORT: 27017,        // MongoDB端口
-  DB_NAME: 'test',       // 数据库名称
+  DB_NAME: 'liushui',    // 数据库名称
   TOKEN_SERCET: 'salt'   // Token密钥
 }
 ```
