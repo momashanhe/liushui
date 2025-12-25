@@ -10,36 +10,36 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+        <div class="col-12 col-lg-8 offset-lg-2">
           <h2>详情</h2>
           <hr>
           <input name="id" type="hidden" class="form-control" id="id" value="<%=id %>">
-          <div class="form-group">
-            <label for="title">事项</label>
+          <div class="mb-3">
+            <label for="title" class="form-label">事项</label>
             <input name="title" type="text" class="form-control" id="title" value="<%=title %>" disabled>
           </div>
-          <div class="form-group">
-            <label for="time">发生时间</label>
+          <div class="mb-3">
+            <label for="time" class="form-label">发生时间</label>
             <input name="time" type="text" class="form-control" id="time" value="<%=date %>" disabled>
           </div>
-          <div class="form-group">
-            <label for="type">类型</label>
+          <div class="mb-3">
+            <label for="type" class="form-label">类型</label>
             <input name="time" type="text" class="form-control" id="type" value="<%=type > 0 ? '收入' : '支出' %>" disabled>
           </div>
-          <div class="form-group">
-            <label for="cost">金额</label>
+          <div class="mb-3">
+            <label for="cost" class="form-label">金额</label>
             <input name="cost" type="text" class="form-control" id="cost" value="<%=cost %>" disabled>
           </div>
-          <div class="form-group">
-            <label for="remark">备注</label>
+          <div class="mb-3">
+            <label for="remark" class="form-label">备注</label>
             <textarea name="remark" class="form-control" id="remark" disabled><%=remark %></textarea>
           </div>
           <hr>
-          <a href="/bill/list" class="btn btn-primary btn-block">返回</a>
+          <a href="/bill/list" class="btn btn-primary w-100">返回</a>
         </div>
       </div>
     </div>
     <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

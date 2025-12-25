@@ -3,7 +3,7 @@ logs
 *.log
 npm-debug.log*
 
-# 依赖目录
+# 编译目录
 node_modules/
 
 # 系统文件
