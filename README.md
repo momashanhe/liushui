@@ -8,16 +8,16 @@
 
 ### 后端技术
 
-- **Node版本**: Node.js 14.18.0
-- **框架**: Express 4.16.1
-- **模板引擎**: EJS 2.6.1
-- **数据库**: MongoDB 6.0.21
-- **数据访问**: Mongoose 8.13.1
+- Node版本: Node.js 14.18.0
+- 框架: Express 4.16.1
+- 模板引擎: EJS 2.6.1
+- 数据库: MongoDB 6.0.21
+- 数据访问: Mongoose 8.13.1
 
 ### 前端技术
 
-- **UI框架**: Bootstrap 5.3.0
-- **JavaScript库**: jQuery 3.6.0
+- UI框架: Bootstrap 5.3.0
+- JavaScript库: jQuery 3.6.0
 
 ## 项目结构
 
